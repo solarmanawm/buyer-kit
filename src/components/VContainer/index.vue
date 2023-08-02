@@ -4,6 +4,12 @@
     </div>
 </template>
 
+<script lang="ts">
+export default {
+    name: 'VContainer',
+};
+</script>
+
 <style lang="sass" scoped>
 .container
     width: 100%
