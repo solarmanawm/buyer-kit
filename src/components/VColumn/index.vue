@@ -37,9 +37,9 @@ export default {
 
     computed: {
         classList() {
-            const prefixes = ['xs', 'sm', 'md', 'lg', 'ls'];
+            const prefixes = ['xs', 'sm', 'md', 'lg', 'xl'];
 
-            return [this.xs, this.sm, this.md, this.lg, this.ls]
+            return [this.xs, this.sm, this.md, this.lg, this.xl]
                 .map((value, index) => ({
                     className: `${prefixes[index]}-${value}`,
                     active: value > 0,
