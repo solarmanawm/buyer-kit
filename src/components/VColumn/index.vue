@@ -4,37 +4,33 @@
     </div>
 </template>
 
-<script lang="ts">
-import { PropType } from 'vue';
-
-type Size = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
-
+<script>
 export default {
     name: 'VColumn',
 
     props: {
         xs: {
-            type: Number as PropType<Size>,
+            type: Number,
             default: -1,
         },
 
         sm: {
-            type: Number as PropType<Size>,
+            type: Number,
             default: -1,
         },
 
         md: {
-            type: Number as PropType<Size>,
+            type: Number,
             default: -1,
         },
 
         lg: {
-            type: Number as PropType<Size>,
+            type: Number,
             default: -1,
         },
 
         xl: {
-            type: Number as PropType<Size>,
+            type: Number,
             default: -1,
         },
     },
